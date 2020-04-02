@@ -103,9 +103,22 @@ https://github.com/SmartConsultingProfessionals
   transform: translate(-50%, -50%);
 }
 
+
+#particles-js{
+  width: 100%;
+   height: 100%;
+ position: absolute;
+}
+
+
+
+
+
 /* -------------------------------------------------------
                      helpers
 -------------------------------------------------------- */
+
+
 .display-table-cell {
   display: table-cell !important;
 }
@@ -2321,11 +2334,11 @@ body.nav-active .nav__list-item:nth-child(10) {
   -ms-transform: translateY(50px);
   -o-transform: translateY(50px);
   transform: translateY(50px);
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -ms-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -ms-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
 }
 
 .dsn-header-hero .name-title {
@@ -2343,9 +2356,9 @@ body.nav-active .nav__list-item:nth-child(10) {
   -ms-flex-align: center;
   align-items: center;
   margin: auto;
-  -webkit-transition-delay: 0.2s;
-  -o-transition-delay: 0.2s;
-  transition-delay: 0.2s;
+  -webkit-transition-delay: 0.1s;
+  -o-transition-delay: 0.1s;
+  transition-delay: 0.1s;
 }
 
 .dsn-header-hero .name-title:before {
