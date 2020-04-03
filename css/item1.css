@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+.cover-item1:after {
+  content: "";
+  background: -webkit-gradient(linear, right top, left top, from(#0077C4), to(#000000));
+  background: linear-gradient(to left,#0077C4 , #000000);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 1; }
